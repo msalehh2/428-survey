@@ -1,0 +1,17 @@
+# Use a base image that includes necessary build tools and libraries for C++ applications
+FROM gcc:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the source code into the container
+COPY . .
+
+# Install necessary dependencies (if any)
+
+# Compile the C++ code
+RUN g++ -o survey_form main.cpp
+
+# Command to run the executable
+CMD ["./survey_form"]
+

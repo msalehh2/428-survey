@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Computing Tools and Programming Languages Survey</title>
+<style>
+body { background-color: #05c46b; }
+</style>
+</head>
+<body>
+<h1>Cloud Computing Tools and Programming Languages Survey</h1>
+<p>Dear Participant,</p>
+<p>Thank you for taking the time to participate in this survey on cloud computing tools and programming languages. Your insights will help us understand the usage patterns and preferences in the field of cloud computing. Please provide your responses to the following questions.</p>
+<h2>Section 1: Infrastructure Management Tools</h2>
+<h3>Amazon Web Services (AWS):</h3>
+<p>How familiar are you with AWS services, such as computing power, storage, and databases?</p>
+<input type="radio" id="aws_familiarity_1" name="aws_familiarity" value="Not familiar at all"><label for="aws_familiarity_1">Not familiar at all</label><br>
+<input type="radio" id="aws_familiarity_2" name="aws_familiarity" value="Somewhat familiar"><label for="aws_familiarity_2">Somewhat familiar</label><br>
+<input type="radio" id="aws_familiarity_3" name="aws_familiarity" value="Very familiar"><label for="aws_familiarity_3">Very familiar</label><br>
+<p>Have you used AWS for building cloud-based applications or services?</p>
+<input type="radio" id="aws_usage_yes" name="aws_usage" value="Yes"><label for="aws_usage_yes">Yes</label><br>
+<input type="radio" id="aws_usage_no" name="aws_usage" value="No"><label for="aws_usage_no">No</label><br>
+<p>If yes, which AWS services have you primarily utilized? (Check all that apply)</p>
+<input type="checkbox" id="aws_service_computing" name="aws_service" value="Computing"><label for="aws_service_computing">Computing (e.g., EC2, Lambda)</label><br>
+<input type="checkbox" id="aws_service_storage" name="aws_service" value="Storage"><label for="aws_service_storage">Storage (e.g., S3, EBS)</label><br>
+<input type="checkbox" id="aws_service_databases" name="aws_service" value="Databases"><label for="aws_service_databases">Databases (e.g., RDS, DynamoDB)</label><br>
+<input type="checkbox" id="aws_service_networking" name="aws_service" value="Networking"><label for="aws_service_networking">Networking (e.g., VPC, Route 53)</label><br>
+<input type="checkbox" id="aws_service_others" name="aws_service" value="Others"><label for="aws_service_others">Others (Please specify)</label><br>
+<textarea id="aws_service_others_specification" name="aws_service_others_specification" placeholder="Specify other AWS services"></textarea><br>
+<h3>Microsoft Azure:</h3>
+<p>Have you utilized Microsoft Azure for cloud computing purposes?</p>
+<input type="radio" id="azure_usage_yes" name="azure_usage" value="Yes"><label for="azure_usage_yes">Yes</label><br>
+<input type="radio" id="azure_usage_no" name="azure_usage" value="No"><label for="azure_usage_no">No</label><br>
+<p>If yes, which Azure services have you used or deployed applications on?</p>
+<textarea id="azure_services_used" name="azure_services_used" placeholder="List Azure services used"></textarea><br>
+<h2>Section 2: Deployment and Orchestration Tools</h2>
+<h3>Google Cloud Platform (GCP):</h3>
+<p>How familiar are you with Google Cloud Platform (GCP) services, such as Compute Engine?</p>
+<input type="radio" id="gcp_familiarity_1" name="gcp_familiarity" value="Not familiar at all"><label for="gcp_familiarity_1">Not familiar at all</label><br>
+<input type="radio" id="gcp_familiarity_2" name="gcp_familiarity" value="Somewhat familiar"><label for="gcp_familiarity_2">Somewhat familiar</label><br>
+<input type="radio" id="gcp_familiarity_3" name="gcp_familiarity" value="Very familiar"><label for="gcp_familiarity_3">Very familiar</label><br>
+<p>Have you utilized Compute Engine on Google Cloud Platform for managing virtual machines (VMs)?</p>
+<input type="radio" id="gcp_compute_engine_usage_yes" name="gcp_compute_engine_usage" value="Yes"><label for="gcp_compute_engine_usage_yes">Yes</label><br>
+<input type="radio" id="gcp_compute_engine_usage_no" name="gcp_compute_engine_usage" value="No"><label for="gcp_compute_engine_usage_no">No</label><br>
+<h3>Docker:</h3>
+<p>How familiar are you with Docker and containerization concepts?</p>
+<input type="radio" id="docker_familiarity_1" name="docker_familiarity" value="Very familiar"><label for="docker_familiarity_1">Very familiar</label><br>
+<input type="radio" id="docker_familiarity_2" name="docker_familiarity" value="Somewhat familiar"><label for="docker_familiarity_2">Somewhat familiar</label><br>
+<input type="radio" id="docker_familiarity_3" name="docker_familiarity" value="Not familiar"><label for="docker_familiarity_3">Not familiar</label><br>
+<p>Have you used Docker for packaging and deploying applications in containerized environments?</p>
+<input type="radio" id="docker_usage_yes" name="docker_usage" value="Yes"><label for="docker_usage_yes">Yes</label><br>
+<input type="radio" id="docker_usage_no" name="docker_usage" value="No"><label for="docker_usage_no">No</label><br>
+<p>If yes, what benefits have you observed in using Docker for application deployment?</p>
+<textarea id="docker_benefits" name="docker_benefits" placeholder="List benefits observed in using Docker"></textarea><br>
+<h3>Kubernetes:</h3>
+<p>Have you worked with Kubernetes for container orchestration?</p>
+<input type="radio" id="kubernetes_usage_yes" name="kubernetes_usage" value="Yes"><label for="kubernetes_usage_yes">Yes</label><br>
+<input type="radio" id="kubernetes_usage_no" name="kubernetes_usage" value="No"><label for="kubernetes_usage_no">No</label><br>
+<p>If yes, what challenges, if any, have you encountered while using Kubernetes for managing containerized workloads?</p>
+<textarea id="kubernetes_challenges" name="kubernetes_challenges" placeholder="List challenges encountered in using Kubernetes"></textarea><br>
+<h3>Google Cloud Platform (GCP):</h3>
+<p>Have you used Google App Engine for deploying and managing applications without managing the underlying infrastructure?</p>
+<input type="radio" id="gcp_app_engine_usage_yes" name="gcp_app_engine_usage" value="Yes"><label for="gcp_app_engine_usage_yes">Yes</label><br>
+<input type="radio" id="gcp_app_engine_usage_no" name="gcp_app_engine_usage" value="No"><label for="gcp_app_engine_usage_no">No</label><br>
+<h2>Section 3: Monitoring and Logging Tools</h2>
+<h3>Prometheus:</h3>
+<p>Are you familiar with Prometheus for monitoring cloud-based applications and infrastructure?</p>
+<input type="radio" id="prometheus_familiarity_yes" name="prometheus_familiarity" value="Yes"><label for="prometheus_familiarity_yes">Yes</label><br>
+<input type="radio" id="prometheus_familiarity_no" name="prometheus_familiarity" value="No"><label for="prometheus_familiarity_no">No</label><br>
+<p>If yes, how do you typically use Prometheus in your monitoring stack?</p>
+<textarea id="prometheus_usage" name="prometheus_usage" placeholder="Describe typical use of Prometheus"></textarea><br>
+<h3>Grafana:</h3>
+<p>Have you utilized Grafana for visualizing metrics and creating dashboards?</p>
+<input type="radio" id="grafana_usage_yes" name="grafana_usage" value="Yes"><label for="grafana_usage_yes">Yes</label><br>
+<input type="radio" id="grafana_usage_no" name="grafana_usage" value="No"><label for="grafana_usage_no">No</label><br>
+<p>If yes, what features or functionalities of Grafana do you find most valuable for monitoring purposes?</p>
+<textarea id="grafana_features" name="grafana_features" placeholder="List valuable features of Grafana"></textarea><br>
+<h3>Google Cloud Platform (GCP):</h3>
+<p>Have you used Cloud Audit Logs within Google Cloud Platform for monitoring and logging activities?</p>
+<input type="radio" id="gcp_audit_logs_usage_yes" name="gcp_audit_logs_usage" value="Yes"><label for="gcp_audit_logs_usage_yes">Yes</label><br>
+<input type="radio" id="gcp_audit_logs_usage_no" name="gcp_audit_logs_usage" value="No"><label for="gcp_audit_logs_usage_no">No</label><br>
+<h2>Section 4: Programming Languages</h2>
+<h3>Python:</h3>
+<p>How proficient are you in Python programming language?</p>
+<input type="radio" id="python_proficiency_beginner" name="python_proficiency" value="Beginner"><label for="python_proficiency_beginner">Beginner</label><br>
+<input type="radio" id="python_proficiency_intermediate" name="python_proficiency" value="Intermediate"><label for="python_proficiency_intermediate">Intermediate</label><br>
+<input type="radio" id="python_proficiency_advanced" name="python_proficiency" value="Advanced"><label for="python_proficiency_advanced">Advanced</label><br>
+<p>In which areas of cloud computing do you primarily use Python? (e.g., web development, automation, data analysis)</p>
+<textarea id="python_usage_areas" name="python_usage_areas" placeholder="List areas of cloud computing where Python is primarily used"></textarea><br>
+<h3>Java:</h3>
+<p>Have you used Java for developing cloud-based applications or services?</p>
+<input type="radio" id="java_usage_yes" name="java_usage" value="Yes"><label for="java_usage_yes">Yes</label><br>
+<input type="radio" id="java_usage_no" name="java_usage" value="No"><label for="java_usage_no">No</label><br>
+<p>If yes, what advantages do you see in using Java for cloud development compared to other languages?</p>
+<textarea id="java_advantages" name="java_advantages" placeholder="List advantages of using Java for cloud development"></textarea><br>
+<h2>Demographic Information</h2>
+<p>Profession:</p>
+<textarea id="profession" name="profession" placeholder="Specify your current profession or role in the tech industry"></textarea><br>
+<p>Experience Level:</p>
+<input type="radio" id="experience_level_novice" name="experience_level" value="Novice"><label for="experience_level_novice">Novice</label><br>
+<input type="radio" id="experience_level_intermediate" name="experience_level" value="Intermediate"><label for="experience_level_intermediate">Intermediate</label><br>
+<input type="radio" id="experience_level_expert" name="experience_level" value="Expert"><label for="experience_level_expert">Expert</label><br>
+<p>Organization Type:</p>
+<input type="checkbox" id="organization_startup" name="organization_type" value="Startup"><label for="organization_startup">Startup</label><br>
+<input type="checkbox" id="organization_sme" name="organization_type" value="Small to medium-sized enterprise (SME)"><label for="organization_sme">Small to medium-sized enterprise (SME)</label><br>
+<input type="checkbox" id="organization_large_corp" name="organization_type" value="Large corporation"><label for="organization_large_corp">Large corporation</label><br>
+<input type="checkbox" id="organization_education" name="organization_type" value="Educational institution"><label for="organization_education">Educational institution</label><br>
+<input type="checkbox" id="organization_non_profit" name="organization_type" value="Non-profit organization"><label for="organization_non_profit">Non-profit organization</label><br>
+<input type="checkbox" id="organization_other" name="organization_type" value="Other"><label for="organization_other">Other (Please specify)</label><br>
+<textarea id="organization_other_specification" name="organization_other_specification" placeholder="Specify other organization type"></textarea><br>
+<h2>Additional Comments</h2>
+<p>Is there anything else you would like to share regarding your experiences or preferences related to cloud computing tools and programming languages?</p>
+<textarea id="additional_comments" name="additional_comments" placeholder="Enter additional comments"></textarea><br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
